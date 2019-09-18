@@ -36,6 +36,8 @@ def monopoly_with_third_tier
     four: ""
   }
   
+  hash[:railroads][:names] = {}
+  
   hash
   
 end
