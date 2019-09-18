@@ -36,7 +36,12 @@ def monopoly_with_third_tier
     four: ""
   }
   
-  hash[:railroads][:names] = {}
+  hash[:railroads][:names] = {
+    name1: "",
+    name2: "",
+    name3: "",
+    name4: ""
+  }
   
   hash
   
