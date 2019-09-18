@@ -12,10 +12,9 @@ def monopoly_with_second_tier
   
   hash = base_hash
   
-  #hash.store(:pieces, Hash.new )
+  hash[:railroads].store(:pieces, Hash.new )
   
-  
-  #puts base_hash
+  hash
   
   
 end
