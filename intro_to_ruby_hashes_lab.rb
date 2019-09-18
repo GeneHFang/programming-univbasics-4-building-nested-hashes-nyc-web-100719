@@ -9,8 +9,8 @@ def monopoly_with_second_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
-  hash = base_hash[:railroads]
-  hash[:pieces] = Hash.new
+  
+  base_hash[:railroads][:pieces] = Hash.new
   
   
   puts base_hash
